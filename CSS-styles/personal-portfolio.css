@@ -1,0 +1,12 @@
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+}
+
+@media (max-width: 23.75em) {
+  #navbar {
+    justify-content: center;
+  }
+}

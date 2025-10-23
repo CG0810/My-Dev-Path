@@ -1,0 +1,12 @@
+
+
+function frankenSplice(array1, array2, index) {
+  let newArray = array2.slice();
+  newArray.splice(index, 0, ...array1);
+  return newArray;  
+  
+  
+} 
+
+
+
